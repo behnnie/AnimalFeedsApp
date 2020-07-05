@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#597088"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/animal_nfeed_store"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="25sp"
+        android:fontFamily="@font/amsterdam"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:layout_below="@id/title"
+        android:layout_marginTop="5dp"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/login"
+        android:background="#ffffff"
+        android:hint="@string/email_address"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/centabel_book"
+        android:textSize="15sp"
+        android:ems="1"
+        android:gravity="center"
+        android:singleLine="true"
+        android:layout_centerHorizontal="true"
+        android:autofillHints=""
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/username"
+        android:background="#ffffff"
+        android:hint="@string/password"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/centabel_book"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:layout_centerHorizontal="true"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/password"
+        android:text="@string/login"
+        android:background="#37474F"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:onClick="openMainActivity"/>
+
+    <TextView
+        android:id="@+id/forgot_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/forgot_password"
+        android:textColor="#ffffff"
+        android:layout_below="@id/btn_login"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/register_here"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/don_t_have_an_account"
+        android:textColor="#ffffff"
+        android:layout_below="@id/forgot_password"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"/>
+
+
+
+</RelativeLayout>

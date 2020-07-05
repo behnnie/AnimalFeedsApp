@@ -1,3 +1,32 @@
 <resources>
     <string name="app_name">AnimalFeeds</string>
+    <string name="my_account">My Account</string>
+    <string name="organic_feeds">Organic Feeds</string>
+    <string name="in_organic_feeds">In_Organic Feeds</string>
+    <string name="specific_animal_feeds">Specific Animal Feeds</string>
+    <string name="poultry_feeds">Poultry Feeds</string>
+    <string name="dairy_animal_feeds">Dairy Animal Feeds</string>
+    <string name="beef_animal_feeds">Beef Animal Feeds</string>
+    <string name="others">Others</string>
+    <string name="my_orders">My Orders</string>
+    <string name="about_us">About Us</string>
+    <string name="jane_doe">Jane Doe</string>
+    <string name="info_janedoe_com">info@janedoe.com</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="animal_feeds_a_click_away">Animal Feeds a click away!</string>
+    <string name="get_yours_today">GET YOURS TODAY!</string>
+    <string name="my_logo">My Logo</string>
+    <string name="animal_nfeed_store">Animal\nFeed Store</string>
+    <string name="login">LOGIN</string>
+    <string name="email_address">email address</string>
+    <string name="password">password</string>
+    <string name="forgot_password">forgot password?</string>
+    <string name="don_t_have_an_account">don\'t have an account</string>
+    <string name="register">REGISTER</string>
+    <string name="username_email">username/email</string>
+    <string name="first_name">first name</string>
+    <string name="last_name">last name</string>
+    <string name="confirm_password">confirm password</string>
+    <string name="profile_image">Profile Image</string>
 </resources>
